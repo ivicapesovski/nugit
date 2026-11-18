@@ -5,3 +5,8 @@ h1 {
 p {
   color: blue;
 }
+
+h2,
+h2 a {
+  color: red;
+}
