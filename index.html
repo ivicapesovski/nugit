@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <title>My Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome — My Site</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <h1>Welcome to my site</h1>
-  <p>Hope you like it</p>
-  <a href="https://google.com">Click here to goolde</a>
-</body>
+  <div class="page">
+    <header class="site-header">
+      <a class="brand" href="index.html">My Site</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a class="nav-link is-active" href="index.html" aria-current="page">Home</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+    </header>
 
+    <main class="main-content">
+      <section class="hero-card">
+        <span class="eyebrow">Personal Space</span>
+        <h1>Welcome to my site</h1>
+        <p class="lead">Hope you like it.</p>
+        <div class="actions">
+          <a class="button" href="contact.html">Get in touch</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built with clean HTML &amp; CSS.</p>
+    </footer>
+  </div>
+</body>
 </html>

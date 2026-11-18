@@ -2,10 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — My Site</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h2><a href="https://linkedin.com/in/pesovski">LinkedIn</a></h2>
+  <div class="page">
+    <header class="site-header">
+      <a class="brand" href="index.html">My Site</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link is-active" href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <section class="hero-card">
+        <span class="eyebrow">Connect</span>
+        <h2>
+          <a class="profile-link" href="https://linkedin.com/in/pesovski" target="_blank" rel="noopener noreferrer">
+            Connect with me on LinkedIn
+            <span class="arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </h2>
+        <p class="lead">Feel free to reach out or follow my work on LinkedIn.</p>
+        <div class="actions">
+          <a class="button button-secondary" href="index.html">Back to home</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built with clean HTML &amp; CSS.</p>
+    </footer>
+  </div>
 </body>
 </html>
